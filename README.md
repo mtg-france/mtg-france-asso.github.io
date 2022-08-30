@@ -30,9 +30,18 @@ Le dev et les tests sont faits depuis VS Code.
 2. Clonez votre repo sous windows.
 3. Installez Jekyll et cie en suivant [le guide officiel](https://jekyllrb.com/docs/installation/ubuntu/) depuis un term WSL sous ubuntu.
 4. Rendez-vous sur votre repo cloné (dans `/mnt/c/...`) et lancez `bundle install` puis `jekyll build`. La build devrait fonctionner.
+
+Dev depuis vscode / windows (mais jekyll watch cassé) :
+
 5. Si la build fonctionne, lancez ensuite vscode, ouvrez votre repo cloné depuis son dossier Windows.
 6. Dans VSCode, vous pouvez ouvrir un terminal Ubuntu pour lancer les différences commandes de compilation jekyll (ex: `jekyll serve --watch --incremental`).
 7. Si vous faites un `jekyll serve` vous devriez pouvoir ouvrir le site depuis votre navigateur (url par défaut `http://127.0.0.1:4000/event-template/`).
+
+Dev depuis vscode / wsl :
+
+5. Lancez VSCode avec l'extension wsl, cliquez sur l'icone WSL en bas à gauche pour relancer vscode depuis ubuntu. Vous ouvrez le repo à partir de son chemin nux
+6. Faites vos devs, le terminal doit s'ouvrir sur ubuntu. Vous prenez sans doute un warning comme quoi les perfs ne seront pas terribles car vous utilisez un système de fichier windows
+7. Vous pouvez commit vos modifs depuis windows. Si vous souhaitez le faire depuis ubuntu ou vscode vous devrez configurer git sous linux
 
 ## Features
 

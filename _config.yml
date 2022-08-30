@@ -7,33 +7,31 @@ url: "https://www.mtg-france.org" # the base hostname & protocol for your site
 
 #navigation
 navigationLinks:
- - {url: "/", text: "Accueil"}
- #- {url: "/agenda/", text: "Agenda"}
- #- {url: "/speakers/", text: "Speakers"}
- #- {url: "/team/", text: "Participants"}
- #- {url: "/faq/", text: "FAQ"}
- #- {url: "/coc/", text: "CoC"}
- #- {url: "/sponsors/", text: "Communautés"}
+  - { url: "/", text: "Accueil" }
+  #- {url: "/agenda/", text: "Agenda"}
+  #- {url: "/speakers/", text: "Speakers"}
+  #- {url: "/team/", text: "Participants"}
+  #- {url: "/faq/", text: "FAQ"}
+  #- {url: "/coc/", text: "CoC"}
+  #- {url: "/sponsors/", text: "Communautés"}
 
 pageHeaders:
-  agenda: {bg: "#00a1f1", font: "#fff", title: "Agenda"}
-  speakers: {bg: "#f65314", font: "#fff", title: "Speakers"}
-  team: {bg: "#7cbb00", font: "#fff", title: "Participants"}
-  faq: {bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions"}
-  coc: {bg: "#f65314", font: "#fff", title: "Code de Conduite"}
-  sessions: {bg: "#7cbb00", font: "#fff"}
-  sponsors: {bg: "#ffbb00", font: "#fff", title: "Communautés"}
-  statistics: {bg: "#7cbb00", font: "#fff"}
-  
-  
+  agenda: { bg: "#00a1f1", font: "#fff", title: "Agenda" }
+  speakers: { bg: "#f65314", font: "#fff", title: "Speakers" }
+  team: { bg: "#7cbb00", font: "#fff", title: "Participants" }
+  faq: { bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions" }
+  coc: { bg: "#f65314", font: "#fff", title: "Code de Conduite" }
+  sessions: { bg: "#7cbb00", font: "#fff" }
+  sponsors: { bg: "#ffbb00", font: "#fff", title: "Communautés" }
+  statistics: { bg: "#7cbb00", font: "#fff" }
+
 collections:
   sessions:
     output: true
     permalink: /sessions/:title
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "sessions"
     values:
@@ -44,7 +42,7 @@ logo: "../css/style/img/icon-large.png"
 
 #google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['pages']
+include: ["pages"]
 
 plugins:
   - jekyll-sitemap
@@ -54,14 +52,16 @@ plugins:
 page_gen-dirs: false
 
 page_gen:
-  - data: 'speakers'
-    template: 'speaker'
-    name: 'id'
+  - data: "speakers"
+    template: "speaker"
+    name: "id"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
     url: https://www.youtube.com/channel/UCIuBHEwIFRjwRMm9--Ga1vg
+  - title: linkedin
+    url: https://www.linkedin.com/company/mtg-france
   - title: twitter
     url: https://twitter.com/MTG_France_org
 

@@ -74,3 +74,4 @@ Elles pourront bénéficier des ressources partagées en tant que membre de l'as
 <a class="btn btn-primary" href="https://www.helloasso.com/associations/microsoft-tech-group-france/adhesions/cotisation-annuelle-membre" role="button">Nous rejoindre</a>
 </div>
 </section>
+

@@ -36,7 +36,7 @@
             <hr />
             <i class="bi bi-building"></i> {{page.company}}
             <div class="social-links">
-                {% for social in page.social %}
+                {% for social in site.sessions.team %}
                     <a href="{{ social.url }}" target="_blank"><i class="bi bi-{{ social.name }}"></i></a>
                 {% endfor %}
             </div>

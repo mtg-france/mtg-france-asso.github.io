@@ -1,6 +1,9 @@
 <section id="sponsors" class="sponsors bg-light-gray">
     <div class="container">
         {% for pack in site.data.sponsors %}
+        {% if pack.level contains "Main sponsor" %}
+
+
         <div class="row mb-5">
             <h3 class="text-center mb-3">{{pack.level}}</h3>
                 {% for sponsor in pack.sponsors %}
@@ -14,6 +17,25 @@
                 </div>
                 {% endfor %}
         </div>
+        {% endif %}
+
         {% endfor %}
+
+       
+        {% for pack in site.data.sponsors %}
+            {% if pack.level contains "Communities" %}
+            <h3 class="text-center mb-3">{{pack.level}}</h3>
+            <br></br> <ul>
+
+                {% for sponsor in pack.sponsors %}
+
+                    <li> <i class="bi bi-globe" target="_blank"></i><span></span><span>    </span><a href="{{sponsor.link}}">{{sponsor.name}}</a><br></br></li>
+ 
+                {% endfor %}
+   </ul>
+
+            {% endif %}
+        {% endfor %}
+     
     </div>
 </section>

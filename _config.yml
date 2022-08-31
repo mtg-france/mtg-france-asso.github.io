@@ -13,7 +13,7 @@ navigationLinks:
   - {url: "/team/", text: "Team"}
   #- {url: "/faq/", text: "FAQ"}
   - {url: "/coc/", text: "CoC"}
-  #- {url: "/sponsors/", text: "Communautés"}
+  - {url: "/sponsors/", text: "Communautés"}
 
 pageHeaders:
   agenda: { bg: "#00a1f1", font: "#fff", title: "Agenda" }

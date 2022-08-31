@@ -3,23 +3,48 @@
   lastname: "Zaradny"
   image: "olivierzaradny.jpg"
   company: "Freelance-Oz4IT"
+  social:
+    - name: twitter
+      link: https://twitter.com/ozaradny
+    - name: linkedin
+      link: https://www.linkedin.com/in/ozaradny/
 -
   firstname: "Thomas"
   lastname: "Bolon"
   image: "thomasbolon.jpg"
   company: "MB3M"
+  social:
+    - name: twitter
+      link: https://twitter.com/styx31
+    - name: linkedin
+      link: https://www.linkedin.com/in/tbolon/
 -
   firstname: "Adrien"
   lastname: "Clerbois"
   image: "adrienclerbois.jpg"
   company: "Sense Of Tech"
+  social:
+    - name: twitter
+      link: https://twitter.com/AClerbois
+    - name: linkedin
+      link: https://www.linkedin.com/in/aclerbois/
 -
   firstname: "Guillaume"
   lastname: "Lacasa"
   image: "guillaulelacasa.jpg"
   company: "Pericia"
+  social:
+    - name: twitter
+      link: https://twitter.com/glacasa
+    - name: linkedin
+      link: https://www.linkedin.com/in/guillaumelacasa/
 -
   firstname: "Joffrey"
   lastname: "Nurit"
   image: "joffreynurit.jpg"
   company: "Merox "
+  social:
+    - name: twitter
+      link: https://twitter.com/JoffreyNurit
+    - name: linkedin
+      link: https://www.linkedin.com/in/joffreynurit/

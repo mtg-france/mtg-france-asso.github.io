@@ -10,7 +10,7 @@ navigationLinks:
   - { url: "/", text: "Accueil" }
   #- {url: "/agenda/", text: "Agenda"}
   #- {url: "/speakers/", text: "Speakers"}
-  #- {url: "/team/", text: "Participants"}
+  - {url: "/team/", text: "Team"}
   #- {url: "/faq/", text: "FAQ"}
   #- {url: "/coc/", text: "CoC"}
   #- {url: "/sponsors/", text: "Communautés"}
@@ -18,7 +18,7 @@ navigationLinks:
 pageHeaders:
   agenda: { bg: "#00a1f1", font: "#fff", title: "Agenda" }
   speakers: { bg: "#f65314", font: "#fff", title: "Speakers" }
-  team: { bg: "#7cbb00", font: "#fff", title: "Participants" }
+  team: { bg: "#7cbb00", font: "#fff", title: "Team" }
   faq: { bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions" }
   coc: { bg: "#f65314", font: "#fff", title: "Code de Conduite" }
   sessions: { bg: "#7cbb00", font: "#fff" }

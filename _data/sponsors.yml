@@ -5,36 +5,42 @@
     link: https://www.microsoft.com/
 - level: Communities
   sponsors:
-  - name: MIG Mons
-    logo: micmons.png
-    link: https://www.meetup.com/micbelgique/
-  - name: MUG Lille
-    logo: muglille.jpeg
-    link: https://www.meetup.com/fr-FR/Microsoft-User-Group-Lille/
-  - name: DevDay
-    logo: devday.jpg
-    link: https://devday.be/
-  - name: MUG .Net Nantes
-    logo: mugnantes.png
-    link: https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/
-  - name: Azug FR
+  - name: MTG:Aix-en-Provence
+    logo: MTG_Aix-en-Provence_logo.png
+    link: 
+  - name: MTG:Clermont-Ferrand
+    logo: MTG_Clermont-Ferrand_logo.png
+    link: https://www.meetup.com/fr-FR/mtg-clermont-ferrand/
+  - name: MTG:Lille
+    logo: MTG_Lille_logo.png
+    link: https://www.meetup.com/fr-FR/mtg-lille/
+  - name: MTG:Luxembourg
+    logo: MTG_Luxembourg_logo.png
+    link: https://www.meetup.com/fr-FR/mtg-luxembourg/
+  - name: MTG:Lyon
+    logo: MTG_Lyon_logo.png
+    link: https://www.meetup.com/fr-FR/MUGLyon/
+  - name: MTG:Montpellier
+    logo: MTG_Montpellier_logo.png
+    link: https://www.meetup.com/fr-FR/MTG-Montpellier/
+  - name: MTG:Nantes
+    logo: MTG_Nantes_logo(1).png
+    link: https://www.meetup.com/fr-FR/MTG-Nantes/
+  - name: MTG:Rennes
+    logo: MTG_Rennes_logo.png
+    link: https://www.meetup.com/fr-FR/MTG-Rennes/
+  - name: MTG:Strasbourg
+    logo: MTG_Strasbourg_logo.png
+    link: https://www.meetup.com/fr-FR/MtgStrasbourg/
+  - name: MTG:Toulouse
+    logo: MTG_Toulouse_logo.png
+    link: https://www.meetup.com/fr-FR/MTG-Toulouse/
+  - name: MTG:Tours
+    logo: MTG_Tours_logo.png
+    link: https://www.meetup.com/fr-FR/Meetup-MTG-Tours/
+  - name: MTG:Wallonie
+    logo: MTG_Wallonie_logo.png
+    link: https://github.com/mtg-france-asso/asso
+  - name: ASUG FR (MTG:Paris)
     logo: azugfr.png
     link: https://www.meetup.com/fr-FR/AZUG-FR/
-  - name: MUG Lyon
-    logo: muglyon.jpeg
-    link: https://www.meetup.com/fr-FR/MUGLyon/
-  - name: MUG Montpellier
-    logo: mugmontpellier.jpeg
-    link: https://www.meetup.com/fr-FR/MUG-Montpellier/
-  - name: .NET Toulouse
-    logo: toulouse.jpg
-    link: https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/
-  - name: MUG Tours
-    logo: mugtours.jpeg
-    link: https://www.meetup.com/fr-FR/Meetup-Mug-Tours/
-  - name: DevApps
-    logo: devapps.png
-    link: https://devapps.be/
-  - name: FRPSUG
-    logo: frpsug.png
-    link: https://frpsug.com/

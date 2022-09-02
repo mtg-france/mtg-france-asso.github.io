@@ -16,7 +16,7 @@ L'association MTG France (Microsoft Tech Group France) est une association à bu
 
 <div class="col">
 <img src="images/manypixels.co/Team work_Outline.png" style="width:100%" />
-<h4>Regrouper les communauté</h4>
+<h4>Regrouper les communautés</h4>
 <p>Nous rassemblons les différentes communautés pour leur permettre d'échanger entre elles, de mutualiser leurs compétences et leur réseau de connaissances.
 <!--
 Nous organisons des évènements entre les organisateurs de communautés pour leur permettre de se rencontrer.

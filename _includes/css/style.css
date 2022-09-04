@@ -162,6 +162,14 @@
       font-size: 40px;
       font-weight: 700;
       line-height: 40px;
+
+    /*Patch for responsive design (smartphone). Disable img, set up as bckgrd img. height is mandatory. Margin is reset to 0*/
+      background-image: url("/images/MTG_France_logo.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+      margin: 0;
   }
   
   @media(min-width:768px) {    

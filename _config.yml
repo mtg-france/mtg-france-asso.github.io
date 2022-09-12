@@ -12,9 +12,11 @@ navigationLinks:
   #- {url: "/speakers/", text: "Speakers"}
   - {url: "/team/", text: "Team"}
   #- {url: "/faq/", text: "FAQ"}
-  - {url: "/coc/", text: "CoC"}
-  - {url: "/sponsors/", text: "Communautés"}
   - {url: "/events/", text: "Events"}
+  - {url: "/sponsors/", text: "Communautés"}
+  - {url: "/coc/", text: "CoC"}
+  
+  
 
 pageHeaders:
   agenda: { bg: "#00a1f1", font: "#fff", title: "Agenda" }
@@ -24,7 +26,7 @@ pageHeaders:
   coc: { bg: "#f65314", font: "#fff", title: "Code de Conduite" }
   sessions: { bg: "#7cbb00", font: "#fff" }
   sponsors: { bg: "#ffbb00", font: "#fff", title: "Communautés" }
-  events: { bg: "#ffbb00", font: "#fff", title: "Events" }
+  events: { bg: "#00a1f1", font: "#fff", title: "Events" }
   statistics: { bg: "#7cbb00", font: "#fff" }
 
 collections:

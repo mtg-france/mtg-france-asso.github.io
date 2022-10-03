@@ -4,9 +4,12 @@ window.addEventListener("load", () => {
         jQuery.ajax({
             url: "https://communities-events.azurewebsites.net/api/GetNextMeetupEvents?code=q4nYZ5Ehr84QXgzo3ypZO8c4c8rwZ2obLjvP4tCWqNyuAzFuVCACYA==",
             success: function( result ) {
+
+                var html = "";
+
                 result.forEach(event => 
                 { 
-                    var html = "<div class='container'><div class='row'>";
+                    html += "<div class='container'><div class='row'>";
                     
                     //For test purpose
                     //html += "<div>Communauté : "+JSON.stringify(event)+"</div>";
@@ -29,10 +32,10 @@ window.addEventListener("load", () => {
                     html += "</div>";
 
                     html += "</div></div><hr/>";
+                });
 
 
-                    jQuery("#next-events").append(html);
-            });
+                jQuery("#next-events").html(html);
             }
         })
     }

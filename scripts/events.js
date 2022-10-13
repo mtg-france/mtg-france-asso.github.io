@@ -22,10 +22,17 @@ window.addEventListener("load", () => {
                     html += "<table>";
                     html += "<div>Titre : <span class='event-title'><a href='"+event.url+"'>"+event.title+"</a></span></div>";
                     html += "<div>Proposé par : <span>"+event.community+"</span></div>";
-                    html += "<div>Date : "+new Date(event.eventDate).toLocaleDateString()+"</div>";
+                    html += "<div><i class='fa-solid fa-calendar-days'></i> "+new Date(event.eventDate).toLocaleDateString()+"</div>";
                     if(event.eventLocation != null)
                     {
-                        html += "<div>Lieu : "+event.eventLocation+"</div>";
+                        html += "<div><i class='fa-solid fa-location-dot'></i>  "
+                            + "<a href='https://www.google.com/maps/place/"+event.eventLocation+"' target='blank'>"
+                                + event.eventLocation
+                            + "</a></div>";
+                    }
+                    else
+                    {
+                        html += "<div><i class='fa-brands fa-youtube'></i> Online</div>";
                     }
 
                     html += "</table>";

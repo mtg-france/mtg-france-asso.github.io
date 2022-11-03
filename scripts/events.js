@@ -19,8 +19,8 @@ window.addEventListener("load", () => {
 
                     //Col 2 -> infos
                     html += "<div class='col-md-8'>";
-                    html += "<table>";
-                    html += "<div>Titre : <span class='event-title'><a href='"+event.url+"'>"+event.title+"</a></span></div>";
+                    
+                    html += "<div><span class='event-title'><a href='"+event.url+"'>"+event.title+"</a></span></div>";
                     html += "<div>Proposé par : <span>"+event.community+"</span></div>";
                     html += "<div><i class='fa-solid fa-calendar-days'></i> "+new Date(event.eventDate).toLocaleDateString()+"</div>";
                     if(event.eventLocation != null)
@@ -35,7 +35,8 @@ window.addEventListener("load", () => {
                         html += "<div><i class='fa-brands fa-youtube'></i> Online</div>";
                     }
 
-                    html += "</table>";
+                    html += "<div><a class='btn btn-primary' href='"+event.url+"ical/"+event.title.replace(/\s/g, '')+".ics'>Save the date (ical)</a></div>";
+
                     html += "</div>";
 
                     html += "</div></div><hr/>";

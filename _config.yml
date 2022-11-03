@@ -10,10 +10,10 @@ navigationLinks:
   - { url: "/", text: "Accueil" }
   #- {url: "/agenda/", text: "Agenda"}
   #- {url: "/speakers/", text: "Speakers"}
-  - {url: "/team/", text: "Team"}
+  - {url: "/equipe/", text: "L'équipe"}
   #- {url: "/faq/", text: "FAQ"}
-  - {url: "/events/", text: "Events"}
-  - {url: "/sponsors/", text: "Communautés"}
+  - {url: "/events/", text: "Évènements"}
+  - {url: "/communautes/", text: "Communautés"}
   - {url: "/coc/", text: "CoC"}
   
   
@@ -21,12 +21,12 @@ navigationLinks:
 pageHeaders:
   agenda: { bg: "#00a1f1", font: "#fff", title: "Agenda" }
   speakers: { bg: "#f65314", font: "#fff", title: "Speakers" }
-  team: { bg: "#7cbb00", font: "#fff", title: "Team" }
+  team: { bg: "#7cbb00", font: "#fff", title: "L'équipe" }
   faq: { bg: "#ffbb00", font: "#fff", title: "Foire Aux Questions" }
   coc: { bg: "#f65314", font: "#fff", title: "Code de Conduite" }
   sessions: { bg: "#7cbb00", font: "#fff" }
   sponsors: { bg: "#ffbb00", font: "#fff", title: "Communautés" }
-  events: { bg: "#00a1f1", font: "#fff", title: "Events" }
+  events: { bg: "#00a1f1", font: "#fff", title: "Évènements" }
   statistics: { bg: "#7cbb00", font: "#fff" }
 
 collections:

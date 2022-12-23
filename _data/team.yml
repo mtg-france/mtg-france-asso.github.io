@@ -34,8 +34,10 @@
   image: "guillaulelacasa.jpg"
   company: "Pericia"
   social:
-    - name: twitter
-      link: https://twitter.com/glacasa
+#    - name: twitter
+#      link: https://twitter.com/glacasa
+    - name: mastodon
+      link: https://mamot.fr/@glacasa
     - name: linkedin
       link: https://www.linkedin.com/in/guillaumelacasa/
 -

@@ -7,44 +7,56 @@ window.addEventListener("load", () => {
 
                 var html = "";
 
-                result.forEach(event => 
-                { 
-                    html += "<div class='container'><div class='row'>";
-                    
-                    //For test purpose
-                    //html += "<div>Communauté : "+JSON.stringify(event)+"</div>";
-
-                    //Col 1 -> image
-                    html += "<div class='col-md-4'><div><a href='"+event.url+"'><img width='100%' src='"+event.eventImgUri+"'/></a></div></div>";
-
-                    //Col 2 -> infos
-                    html += "<div class='col-md-8'>";
-                    
-                    html += "<div><span class='event-title'><a href='"+event.url+"'>"+event.title+"</a></span></div>";
-                    html += "<div>Proposé par : <span>"+event.community+"</span></div>";
-                    html += "<div><i class='fa-solid fa-calendar-days'></i> "+new Date(event.eventDate).toLocaleDateString()+"</div>";
-                    if(event.eventLocation != null)
+                if (result.length > 0)  {
+                    result.forEach(event =>
                     {
-                        html += "<div><i class='fa-solid fa-location-dot'></i>  "
-                            + "<a href='https://www.google.com/maps/place/"+event.eventLocation+"' target='blank'>"
-                                + event.eventLocation
-                            + "</a></div>";
-                    }
-                    else
-                    {
-                        html += "<div><i class='fa-brands fa-youtube'></i> Online</div>";
-                    }
+                        html += "<div class='container'><div class='row'>";
 
-                    html += "<div><a class='btn btn-primary' href='"+event.url+"ical/"+event.title.replace(/\s/g, '')+".ics'>Save the date (ical)</a></div>";
+                        //For test purpose
+                        //html += "<div>Communauté : "+JSON.stringify(event)+"</div>";
 
-                    html += "</div>";
+                        //Col 1 -> image
+                        html += "<div class='col-md-4'><div><a href='"+event.url+"'><img width='100%' src='"+event.eventImgUri+"'/></a></div></div>";
 
-                    html += "</div></div><hr/>";
-                });
+                        //Col 2 -> infos
+                        html += "<div class='col-md-8'>";
 
+                        html += "<div><span class='event-title'><a href='"+event.url+"'>"+event.title+"</a></span></div>";
+                        html += "<div>Proposé par : <span>"+event.community+"</span></div>";
+                        html += "<div><i class='fa-solid fa-calendar-days'></i> "+new Date(event.eventDate).toLocaleDateString()+"</div>";
+                        if(event.eventLocation != null)
+                        {
+                            html += "<div><i class='fa-solid fa-location-dot'></i>  "
+                                + "<a href='https://www.google.com/maps/place/"+event.eventLocation+"' target='blank'>"
+                                    + event.eventLocation
+                                + "</a></div>";
+                        }
+                        else
+                        {
+                            html += "<div><i class='fa-brands fa-youtube'></i> Online</div>";
+                        }
+
+                        html += "<div><a class='btn btn-primary' href='"+event.url+"ical/"+event.title.replace(/\s/g, '')+".ics'>Save the date (ical)</a></div>";
+
+                        html += "</div>";
+
+                        html += "</div></div><hr/>";
+                    });
+                }
+                else{
+                    html += "<div class='container'><div class='text-center mb-5'>Aucun évènement programmé pour le moment. À bientôt !</div></div>";
+                }
 
                 jQuery("#next-events").html(html);
             }
         })
     }
   });
+
+//
+// <div className="container">
+//     <p className="text-center mb-5">
+//         🐱&zwj;💻 Vous trouverez ci-dessous la liste des prochains évènements proposés par les
+//         communautées <strong>MTG:France</strong> 🐱&zwj;💻
+//     </p>
+// </div>
